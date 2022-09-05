@@ -6,7 +6,7 @@ public:
         {
             if (prices[i+1] > prices[i])
             {
-                sum += ( ( prices[i+1] )- (prices[i]) );
+                sum += ((prices[i+1]) - (prices[i]));
             }
         }
         return sum;
